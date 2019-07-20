@@ -10,7 +10,8 @@ class Project
   
   def add_backer(backers)
    if  @backers << backers
-       else
+       else 
+         self << backers
   end
   
    
