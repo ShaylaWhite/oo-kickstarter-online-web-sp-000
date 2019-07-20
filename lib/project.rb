@@ -9,9 +9,6 @@ class Project
   end
   
   def add_backer(backers)
-   if  @backers << backers
-      else 
-         self << backers
-  end
+    @backers << backers
 end
 end
