@@ -14,3 +14,4 @@ class Project
          self << backers
   end
 end
+end
