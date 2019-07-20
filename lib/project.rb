@@ -13,6 +13,4 @@ class Project
       else 
          self << backers
   end
-  
-   
 end
